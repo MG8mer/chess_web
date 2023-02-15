@@ -1,8 +1,5 @@
 body {
-    background-image: url(chess_background.jpeg)
-  }
-  
-  h1 {
-    color: navy;
-  ;
-  }
+    background-image: url(chess_background.jpeg);
+    color:antiquewhite
+    
+}
