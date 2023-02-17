@@ -1,5 +1,5 @@
 body {
-    background-image: url(chess_background.jpeg);
+    background-image: url(web_images/general/chess_background.jpeg);
     color:black
     
 }
@@ -10,6 +10,6 @@ h1 {
 
 blockquote {
     color:brown
-    
+
 }
 
