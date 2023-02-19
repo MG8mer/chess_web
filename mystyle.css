@@ -6,6 +6,8 @@ body {
 
 h1 {
     color:brown;
+    text-align: center;
+    box-shadow: 2px 4px 10px 4px brown;
 }
 
 blockquote {
@@ -14,6 +16,7 @@ blockquote {
 }
 
 p {
-    font-family: Arial, sans-serif;
+    font-family: Roboto, sans-serif;
 }
+
 
