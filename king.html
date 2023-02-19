@@ -5,15 +5,80 @@
     <title>King</title>
     <link rel="icon" type="image/x-icon" href="web_images/favicon.ico">
     <style>
-
+        li {
+            color:brown
+        }
     </style>
 </head>
     <body>  
+        <h1 class="home"><a href="index.html">Home</a></h1>
+        <h1 style="border: 4px dashed brown;background-color:antiquewhite;">The King!</h1>
+        <div class="dropdown" style="float:right;">
+            <button>Chess Piece Hub</button>
+            <div class="dropdown-content">
+            <a href="pawn.html">Pawn</a>
+            <a href="knight.html">Knight</a>
+            <a href="bishop.html">Bishop</a>
+            <a href="rook.html">Rook</a>
+            <a href="queen.html">Queen</a>
+            <a href="king.html">King</a>
+            </div>
+          </div>
+        <p style="font-size:larger"> The vulnerable ruler of all the pieces, <strong>The King!</strong></p>
 
-        <h1>This is a heading</h1>
-        <p>This is a paragraph. </p>
+        <blockquote style="background-color:antiquewhite;font-size:large;border-left: 4px solid brown">
+            <p>
+                <em>
+                    The King is by definition is the soul of chess, without him the pieces would have
+                    no power! So therfore if he is captured, the side that captured the king would win. However,
+                    the King cannot be captured, that would be what is called an <strong>illegal</strong> move!
+                    Instead, the King must be trapped, where he is in a state of almost being captured, but cannot
+                    escape anywhere else.
+                    <br>
+                    On top of this, the King is even more vulnerable as he has a very limited mobility, so it is 
+                    up to his fellow pieces to aid him to victory! (or to a draw).
+                </em>
+            </p>
+        </blockquote>
 
-        <p></p>
 
+        <p>The King as mentioned before has quite a limited mobility, in which he is only able to move one square
+        in each way as shown below:</p>
+
+        <img src="web_images/king/king_movement.png" alt="Smol Guy" width="400" height="400">
+
+        <p>Unlike the other pieces, the King expectedly is a special piece, in which there are three unique states
+       <br>it can be in when he is attacked:</p>
+
+       <ul>
+            <li><strong>Check</strong>: When a piece threatens the king, which can be responded to by moving the king away,
+                <br> blocking the check, or capturing the piece if possible.
+            or taking the piece if possible:</li>
+
+            <img src="web_images/king/check.png" alt="Check" width="400" height="400">
+            <p>then,</p>
+            <li><strong>Checkmate</strong>: When a piece threatens the king <strong>AND</strong> the King cannot escape as other pieces, 
+                are guarding his escape squares, the check cannot be blocked and the piece cannot be captured because it's guarded:</li>
+
+            <img src="web_images/king/checkmate.png" alt="Checkmate" width="400" height="400">
+
+            <p>and finally,</p>
+
+            <li><strong>Stalemate</strong>: When the king is trapped <strong>BUT</strong> is not being threatened <strong>AND</strong>
+            there are no other possible moves:</li>
+        </ul>
+
+            <img src="web_images/king/stalemate.png" alt="Stalemate" width="400" height="400">
+
+            <p style="font-size:larger">If you want to learn more about the <strong>King,</strong> watch this video by chess.com!</p>
+            <h2><a href="https://www.youtube.com/watch?v=ZWjDKiHBvZo&ab_channel=Chess.com"> How to Move the [King] AND <em>the goal</em></a></h2>
+            
+            <p style="font-size:larger">Or click on the link below!</p>
+            <h2><a href="https://www.chess.com/terms/chess-king">Chess Terms-King</a> </h2>
+
+            <h2 style="color:brown;border-top: 4px solid brown">Thank you and congratulations for completing the chess tour! You are amazing!</h2>
+            <img src="web_images/king/congratulations.gif" alt="Hurrah!" width="500" height="350">
+
+            <p style="font-size:larger">Click <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">here</a> <a href="index.html">or here</a> to return home!</p>
     </body>
 </html>
